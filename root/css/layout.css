@@ -1,0 +1,131 @@
+/*
+css style elements and layout:  
+users css:
+*/
+
+.body {
+   background-color:#D8D8D8;
+}
+
+header {
+    width:auto;
+    height:50px;
+    background-color:black;
+}
+
+
+.content{
+  background-color:#F0F0F0  ;
+  width:1000px;
+  height:600px;
+  border-color: gray;
+  border-width: 1px ;
+  border-style: solid;
+  /*margin:auto;*/
+  margin:70px 0px 0px 290px;
+}
+.member_content{
+  background-color:#F0F0F0  ;
+  width:1000px;
+  min-height:600px;
+  /*height:1000px;*/
+  border-color: red;
+  border-width: 1px 1px 1px 1px; ;
+  border-style: solid;
+  margin:60px auto auto auto;
+  
+}
+#para {
+	margin-left: 710px;
+	font-family: ariel;
+	color:black;
+	font-weight: bolder;
+}
+.p{
+  margin-top:15px;
+ }
+
+.footer {
+	margin-top:20px;
+	background-color:;
+	width: auto;
+	height:50px;
+}
+
+
+aside {
+
+    background-color:#FFFFFF;
+    width:500px;
+    height:600px;
+    float:right;
+    border-width: 1px;
+    border-style: solid;
+    border-color: gray;
+    margin:30px 20px 0px 0px;
+}
+
+.form { 
+	margin-top :100px;
+
+}
+#errors{
+   color:red;
+   font-weight:bold;
+}
+#notification{
+  position:static;
+    float:right;
+  border-style: solid;
+  border-width: 1px;
+  border-color: red;
+
+}
+
+/* admin css styles:*/
+
+.admin_header {
+  background-color:#2F4F4F;
+  width:auto;
+  height:70px;
+  margin-left:0px;
+
+
+}
+.sidebar{
+  float:left;
+  background-color:#A0522D ;
+  width:202px;
+  height:750px;
+}
+.admin_nav{
+  margin-top:20px;
+}
+
+.admin_footer{
+  width:auto;
+  height:40px;
+  background-color:#2F4F4F;
+  clear:left;
+}
+.admin_form{
+  float:left;
+  margin:20px 0px 0px 500px;
+
+}
+
+/* admin elements:*/
+
+.news_form {
+  margin-top:50px;
+  margin-left:20px;
+  float:left;
+}
+
+#user_form{
+  width:;
+  float:left;
+  margin:30px 0px 20px 30px;
+  
+
+}
